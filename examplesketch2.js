@@ -252,8 +252,7 @@ if(stage==2){
 timer++;
 mapX=9000;
 mapY=9000;
-animationimg.resize(1500, 1020);
-image(animationimg, 430,0);
+image(animationimg, 0,0);
 if(display==true){
   for (var i = 0; i < round(coviddata[52217].Deaths/17520); i++) {
 
@@ -319,8 +318,7 @@ if(stage==3){
 timer++;
 mapX=9000;
 mapY=9000;
-animationimg.resize(1500, 1020);
-image(animationimg, 430,0);
+image(animationimg, 0,0);
 if(display==true){
   for (var i = 0; i < round(coviddata[15665].Deaths/17520); i++) {
 
@@ -387,8 +385,7 @@ if(stage==4){
 timer++;
 mapX=9000;
 mapY=9000;
-animationimg.resize(1500, 1020);
-image(animationimg, 430,0);
+image(animationimg, 0,0);
 rect(20,120,60,30);
 text('display',30,140);
 if(display==true){
@@ -456,8 +453,7 @@ if(stage==5){
 timer++;
 mapX=9000;
 mapY=9000;
-animationimg.resize(1500, 1020);
-image(animationimg, 430,0);
+image(animationimg, 0,0);
 rect(20,120,60,30);
 text('display',30,140);
 if(display==true){
